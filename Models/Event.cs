@@ -37,7 +37,6 @@ namespace DreamCreationDanceCrew.Models
         public DateTime TimeUntil { get; set; }
         [Required]
         public string Location { get; set; }
-        [Required]
         public Groups Group { get; set; }
         public string BringWith { get; set; }
         [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$")]

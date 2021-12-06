@@ -1,3 +1,7 @@
 06.12.2021 Morgen:
 Ich habe probiert den Typ des Events mit einem Array zu valdieren, welches jedoch nicht funktionierte. Nach einem Gespräch mit Jonas, sollte ich es mit einem Enum versuchen.
 Da habe ich zuerst über Enum im Internet rechechiert. Danach habe ich es beim "Type" und "Group" eingebaut. Dabei gab es einen Fehlermeldung aus. Diese muss ich jetzt beheben.
+
+06.12.2021 Nachmittag:
+Ich habe probiert den Fehler zu finden. Hätte jedoch schneller fragen sollen. Im Gespräch mit Jonas, hat er mir gezeigt, was der Fehler ist. Das Suchfilter funktioniert nicht,
+wegen den neuen Enums. Deshalb habe ich die Suchfiltern auskommentiert. Herauszufinden, wie es trotzdem funktionieren könnte, ist meine Aufgabe für morgen. 

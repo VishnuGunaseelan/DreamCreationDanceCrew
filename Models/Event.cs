@@ -25,6 +25,7 @@ namespace DreamCreationDanceCrew.Models
     public class Event
     {
         public int ID { get; set; }
+        [Column(TypeName = "nvarchar(40)")]
         public Types Type { get; set; }
         [DataType(DataType.Date)]
         [Required]
@@ -37,6 +38,7 @@ namespace DreamCreationDanceCrew.Models
         public DateTime TimeUntil { get; set; }
         [Required]
         public string Location { get; set; }
+        [Column(TypeName = "nvarchar(40)")]
         public Groups Group { get; set; }
         public string BringWith { get; set; }
         [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$")]

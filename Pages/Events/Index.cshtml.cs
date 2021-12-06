@@ -29,22 +29,25 @@ namespace DreamCreationDanceCrew.Pages.Events
 
         public async Task OnGetAsync()
         {
-            IQueryable<string> groupQuery = from m in _context.Event
+            IQueryable<Groups> groupQuery = from m in _context.Event
                                             orderby m.Group
                                             select m.Group;
 
+            var groups = await groupQuery.Distinct().Select(g => g.ToString()).ToListAsync();
+
             var events = from m in _context.Event
                          select m;
-            if (!string.IsNullOrEmpty(SearchString))
+ /*           if (!string.IsNullOrEmpty(SearchString))
             {
-                events = events.Where(s => s.Type.Contains(SearchString));
+                events = events.Where(s => s.Type.ToString().Contains(SearchString));
             }
 
             if (!string.IsNullOrEmpty(EventGroup))
             {
-                events = events.Where(x => x.Group == EventGroup);
+                events = events.Where(x => x.Group.ToString() == EventGroup);
             }
-            Groups = new SelectList(await groupQuery.Distinct().ToListAsync());
+ */
+            Groups = new SelectList(groups);
             Event = await events.ToListAsync();
         }
     }

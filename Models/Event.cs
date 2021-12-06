@@ -7,12 +7,25 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DreamCreationDanceCrew.Models
 {
+    public enum Types
+    {
+        Training,
+        Hauptprobe,
+        Sitzung,
+        Auftritt,
+        Speziell
+    }
+
+    public enum Groups
+    {
+        Trainer,
+        Elite,
+        Schüler
+    }
     public class Event
     {
         public int ID { get; set; }
-        [RegularExpression("(?i)training")]
-        [Required]
-        public string Type { get; set; }
+        public Types Type { get; set; }
         [DataType(DataType.Date)]
         [Required]
         public DateTime Date { get; set; }
@@ -25,7 +38,7 @@ namespace DreamCreationDanceCrew.Models
         [Required]
         public string Location { get; set; }
         [Required]
-        public string Group { get; set; }
+        public Groups Group { get; set; }
         public string BringWith { get; set; }
         [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$")]
         public string Description { get; set; }

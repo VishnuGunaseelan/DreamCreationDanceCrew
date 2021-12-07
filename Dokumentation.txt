@@ -8,4 +8,8 @@ wegen den neuen Enums. Deshalb habe ich die Suchfiltern auskommentiert. Herauszu
 
 07.12.2021 Morgen:
 Ich habe versucht mit den Enum, dass ich erstellt habe, bei der Create-Ansicht ein Dropdown für den Type zu machen statt ein Eingabefeld. Als ich ein bischen probiert habe,
-habe ich dann Jonas gefragt. Da hat er mir mit einem Link weitergeholfen. Ich habe das select-list erstellt, doch es gibt noch 2 Fehlermeldungen aus. 
+habe ich dann Jonas gefragt. Da hat er mir mit einem Link weitergeholfen. Ich habe das select-list erstellt, doch es gibt noch 2 Fehlermeldungen aus.
+
+07.12.2021 Nachmittag:
+Ich habe zuerst an den beiden Fehlermeldungen gearbeitet. Mit Hilfe von Jonas konnte ich die Errors beheben. Danach habe ich das mit den Dropbox auch bei Group gemacht.
+Als das erledigt war, ist mir aufgefallen, dass ich bei Group Checkboxen brauche und kein Dropdown. Deshalb habe ich danach daran gearbeitet, Checkboxen zu erstellen.

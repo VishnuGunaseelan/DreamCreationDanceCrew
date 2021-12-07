@@ -48,9 +48,12 @@
 <!--
                 <input asp-for="Event.Group" class="form-control" />
 -->
+<!--
                 <select asp-for="Event.Group" asp-items="Html.GetEnumSelectList<DreamCreationDanceCrew.Models.Groups>()">
                     <option value="">Choose a group</option>
                 </select>
+-->
+                <input id="@event.group" type="checkbox" name="Group" value="@event.Groups" checked="@groups.Selected"/>
                 <span asp-validation-for="Event.Group" class="text-danger"></span>
             </div>
             <div class="form-group">

@@ -15,7 +15,12 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Event.Type" class="control-label"></label>
+<!--
                 <input asp-for="Event.Type" class="form-control" />
+-->
+                <select asp-for="Event.Type" asp-items="Html.GetEnumSelectList<DreamCreationDanceCrew.Models.Types>()">
+                    <option value="">Choose a type</option>
+                </select>
                 <span asp-validation-for="Event.Type" class="text-danger"></span>
             </div>
             <div class="form-group">

@@ -41,7 +41,6 @@ namespace DreamCreationDanceCrew.Models
         [Column(TypeName = "nvarchar(40)")]
         public Groups Group { get; set; }
         public string BringWith { get; set; }
-        [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$")]
         public string Description { get; set; }
     }
 }

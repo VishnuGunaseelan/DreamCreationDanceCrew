@@ -53,11 +53,11 @@
                     <option value="">Choose a group</option>
                 </select>
 -->
-
+<!--
             <form asp-action="SumEnumCheckBox" method="post">
                 <div class="checkboxContainer">
                     <label asp-for="Event.Group" class="checkbox">
-                        <input type="checkbox" value="1" />Trainer
+                        <input type="checkbox" value="@Model." />Trainer
                     </label>
                     <label asp-for="Event.Group" class="checkbox">
                         <input type="checkbox" value="2" />Elite
@@ -67,8 +67,8 @@
                     </label>
                 </div>
             </form>
-
-
+-->
+                
                 <span asp-validation-for="Event.Group" class="text-danger"></span>
             </div>
             <div class="form-group">

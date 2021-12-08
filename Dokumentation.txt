@@ -16,4 +16,8 @@ Als das erledigt war, ist mir aufgefallen, dass ich bei Group Checkboxen brauche
 
 08.12.2021 Morgen:
 Heute Morgen habe ich mit dem Checkboxen angefangen zu programmieren.Zuerst dachte ich, ich müssste ein zweites Enum erstellen, um die Werte der Checkboxen zu speicher.
-Jedoch meinte Jonas, dass ich kein zweites Enum brauche. Ich konnte nun die 3 Checkboxen erstellen, jedoch konnte ich es noch nicht mit dem Enum machen. 
+Jedoch meinte Jonas, dass ich kein zweites Enum brauche. Ich konnte nun die 3 Checkboxen erstellen, jedoch konnte ich es noch nicht mit dem Enum machen.
+
+08.12.2021 Nachmittag:
+Am Nachmittag habe ich mit den Checkboxen weiter gemacht. Nach der Besprechung mit Jonas, hat er mir ein Link geschickt, welches ich durcharbeiten sollte. Das Enum und die
+Klasse EnumModel sind erstellt.

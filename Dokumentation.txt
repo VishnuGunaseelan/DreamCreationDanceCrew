@@ -12,4 +12,8 @@ habe ich dann Jonas gefragt. Da hat er mir mit einem Link weitergeholfen. Ich ha
 
 07.12.2021 Nachmittag:
 Ich habe zuerst an den beiden Fehlermeldungen gearbeitet. Mit Hilfe von Jonas konnte ich die Errors beheben. Danach habe ich das mit den Dropbox auch bei Group gemacht.
-Als das erledigt war, ist mir aufgefallen, dass ich bei Group Checkboxen brauche und kein Dropdown. Deshalb habe ich danach daran gearbeitet, Checkboxen zu erstellen.
+Als das erledigt war, ist mir aufgefallen, dass ich bei Group Checkboxen brauche und kein Dropdown. Deshalb habe ich danach über Checkboxesn in Internet geschaut.
+
+08.12.2021 Morgen:
+Heute Morgen habe ich mit dem Checkboxen angefangen zu programmieren.Zuerst dachte ich, ich müssste ein zweites Enum erstellen, um die Werte der Checkboxen zu speicher.
+Jedoch meinte Jonas, dass ich kein zweites Enum brauche. Ich konnte nun die 3 Checkboxen erstellen, jedoch konnte ich es noch nicht mit dem Enum machen. 

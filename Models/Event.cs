@@ -28,6 +28,7 @@ namespace DreamCreationDanceCrew.Models
         public Groups Group { get; set; }
         public bool IsSelected { get; set; }
     }
+
     public class Event
     {
         public int ID { get; set; }
@@ -45,7 +46,7 @@ namespace DreamCreationDanceCrew.Models
         [Required]
         public string Location { get; set; }
         [Column(TypeName = "nvarchar(40)")]
-        public Groups Group { get; set; }
+        public List<EnumModel> CheckboxTypes { get; set; }
         public string BringWith { get; set; }
         public string Description { get; set; }
     }

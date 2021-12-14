@@ -23,11 +23,7 @@ namespace DreamCreationDanceCrew.Models
         Schüler
     }
 
-    public class EnumModel
-    {
-        public Groups Group { get; set; }
-        public bool IsSelected { get; set; }
-    }
+
     public class Event
     {
         public int ID { get; set; }

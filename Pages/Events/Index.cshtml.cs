@@ -27,17 +27,19 @@ namespace DreamCreationDanceCrew.Pages.Events
         [BindProperty(SupportsGet = true)]
         public string EventGroup { get; set; }
 
+        /*
         public async Task OnGetAsync()
         {
+            
             IQueryable<Groups> groupQuery = from m in _context.Event
-                                            orderby m.Group
-                                            select m.Group;
-
+                                            orderby m.CheckboxGroups
+                                            select m.CheckboxGroups;
+            
             var groups = await groupQuery.Distinct().Select(g => g.ToString()).ToListAsync();
 
             var events = from m in _context.Event
                          select m;
- /*           if (!string.IsNullOrEmpty(SearchString))
+               if (!string.IsNullOrEmpty(SearchString))
             {
                 events = events.Where(s => s.Type.ToString().Contains(SearchString));
             }
@@ -46,9 +48,11 @@ namespace DreamCreationDanceCrew.Pages.Events
             {
                 events = events.Where(x => x.Group.ToString() == EventGroup);
             }
- */
+ 
             Groups = new SelectList(groups);
             Event = await events.ToListAsync();
+            
         }
+        */
     }
 }

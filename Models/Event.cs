@@ -46,7 +46,7 @@ namespace DreamCreationDanceCrew.Models
         [Required]
         public string Location { get; set; }
         [Column(TypeName = "nvarchar(40)")]
-        public List<EnumModel> CheckboxTypes { get; set; }
+        public List<EnumModel> CheckboxGroups { get; set; }
         public string BringWith { get; set; }
         public string Description { get; set; }
     }

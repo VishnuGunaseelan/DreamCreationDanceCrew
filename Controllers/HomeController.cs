@@ -5,8 +5,15 @@ using System.Collections.Generic;
 
 namespace DreamCreationDanceCrew.Controllers
 {
+
     public class HomeController : Controller
     {
+        private readonly DreamCreationDanceCrew.Data.DreamCreationDanceCrewContext _context;
+        public HomeController(DreamCreationDanceCrew.Data.DreamCreationDanceCrewContext context)
+        {
+            _context = context;
+        }
+
         public IActionResult Index()
         {
         Event model = new Event();
@@ -19,4 +26,4 @@ namespace DreamCreationDanceCrew.Controllers
         }
 
     }
-}
+} 

@@ -51,8 +51,10 @@ namespace DreamCreationDanceCrew.Pages.Events
  
             Groups = new SelectList(groups);
             Event = await events.ToListAsync();
+
             
         }
         */
+
     }
 }

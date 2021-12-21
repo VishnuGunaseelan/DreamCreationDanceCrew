@@ -27,3 +27,22 @@ Ich habe gemerkt, dass ich das EnumModel falsch gemacht habe. Ich habe daran gea
 
 13.12.2021 Nachmittag:
 Bei der Webseite, dem mir Jonas geschickt hat, arbeite ich gerade am Main Model und Controller.
+
+14.12.2021 Morgen:
+Ich habe den Controller erstellt und "Group" zu "CheckboxGroup" überall geändert.
+
+14.12.2021 Nachmittag:
+Am Nachmittag habe ich noch mit Jonas besprochen und die Errors noch behoben.
+
+15.12.2021 Morgen:
+Ich habe keine Fehlermeldung mehr im VisualStudio erhalten. Wenn ich das Program jedoch ausführe und und ins Index ging, erhalte ich dort eine Fehlermeldung.(Object reference
+not set to an instance of an object.) Jonas hat mir dann noch erklärt, woran es liegt.
+
+15.12.2021 Nachmittag:
+Am Nachmittag habe ich über den Controller gelesen, damit ich den Error beheben kann. Nach dem Lesen habe ich daran gearbeitet.
+
+20.12.2021 Morgen:
+Jonas hat mir erklärt, warum ein Fehlermeldung ausgegeben wird und wie ich diese behebe. Nun habe ich den HomeController erweitert.
+
+20.12.2021 Nachmittag:
+Ich habe den HomeController mit einem Constructor erweitert und jetzt muss ich noch den Index anpassen.

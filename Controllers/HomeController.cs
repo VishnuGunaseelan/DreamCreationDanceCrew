@@ -22,7 +22,7 @@ namespace DreamCreationDanceCrew.Controllers
             {
                 model.CheckboxGroups.Add(new EnumModel() { Group = groups, IsSelected = false });
             }
-        return View(model);
+        return View(index);
         }
 
     }

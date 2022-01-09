@@ -46,3 +46,5 @@ Jonas hat mir erklärt, warum ein Fehlermeldung ausgegeben wird und wie ich dies
 
 20.12.2021 Nachmittag:
 Ich habe den HomeController mit einem Constructor erweitert und jetzt muss ich noch den Index anpassen.
+
+03.01.2022 Morgen:

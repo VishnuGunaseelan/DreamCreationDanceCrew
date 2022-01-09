@@ -48,3 +48,14 @@ Jonas hat mir erklärt, warum ein Fehlermeldung ausgegeben wird und wie ich dies
 Ich habe den HomeController mit einem Constructor erweitert und jetzt muss ich noch den Index anpassen.
 
 03.01.2022 Morgen:
+Ich habe gemerkt, dass ich ein Durcheinenader mit dem Controller habe. Dort habe ich auch das Error. Deshalb habe ich den Controller nochmals gemacht. Zuerst habe ich die Dokumentation
+von Microsoft gelesen.
+
+03.01.2022 Nachmittag:
+Am Nachmittag habe ich mit den Controller weiter gemacht.
+
+04.01.2022 Morgen:
+Am Morgen habe ich am Controller weitergearbeitet. Ich bekamm eine Fehlermeldung, an welches ich gearbeitet habe. 
+
+04.01.2022 Nachmittag:
+Am Nachmittag habe ich noch an den Kompotenzen gearbeitet, die ich in der Schule abgeben muss.

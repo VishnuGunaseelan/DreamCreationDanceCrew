@@ -45,7 +45,6 @@ namespace DreamCreationDanceCrew.Models
         public DateTime TimeUntil { get; set; }
         [Required]
         public string Location { get; set; }
-
         [Column(TypeName = "nvarchar(40)")]
         public List<EnumModel> CheckboxGroups { get; set; }
         public string BringWith { get; set; }

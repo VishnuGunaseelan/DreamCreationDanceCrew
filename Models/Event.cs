@@ -15,7 +15,7 @@ namespace DreamCreationDanceCrew.Models
         Auftritt,
         Speziell
     }
-
+    
     public enum Groups
     {
         Trainer,

@@ -14,7 +14,7 @@ namespace DreamCreationDanceCrew.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult DreamCreation()
         {
         Event model = new Event();
         model.CheckboxGroups = new List<EnumModel>();
@@ -26,4 +26,4 @@ namespace DreamCreationDanceCrew.Controllers
         }
 
     }
-}
+} 

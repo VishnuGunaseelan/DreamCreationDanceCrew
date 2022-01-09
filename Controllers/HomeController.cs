@@ -16,7 +16,7 @@ namespace DreamCreationDanceCrew.Controllers
 
         public IActionResult DreamCreation()
         {
-        Event model = new Event();
+        Event model = new model();
         model.CheckboxGroups = new List<EnumModel>();
         foreach (Groups groups in Enum.GetValues(typeof(Groups)))
             {

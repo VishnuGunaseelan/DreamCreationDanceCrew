@@ -34,7 +34,8 @@ namespace DreamCreationDanceCrew.Pages.Events
             {
                 return NotFound();
             }
-            return Page();
+            return Page(); 
         }
     }
 }
+

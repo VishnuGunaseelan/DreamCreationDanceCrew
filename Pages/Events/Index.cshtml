@@ -1,5 +1,6 @@
 ﻿@page
-@model DreamCreationDanceCrew.Pages.Events.IndexModel
+@using DreamCreationDanceCrew.Models
+@model List<Event>
 
 @{
     ViewData["Title"] = "Index";
@@ -22,10 +23,10 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Event[0].Type)
+                @Html.DisplayNameFor(model => List<Event>[0].Type)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Event[0].Date)
+                @Html.DisplayNameFor(model => model.Event[0].Date) 
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Event[0].TimeFrom)
@@ -49,7 +50,7 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Event) {
+@foreach (var item in Model.Event) { 
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Type)
@@ -73,12 +74,12 @@
                 @Html.DisplayFor(modelItem => item.BringWith)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Description)
+                @Html.DisplayFor(modelItem => item.Description)  
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> | 
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a> 
             </td>
         </tr>
 }

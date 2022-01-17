@@ -12,45 +12,47 @@
     <a asp-page="Create">Create New</a>
 </p>
 
+<!--
 <form>
     <p>
         Title: <input type="text" asp-for="SearchString" />
         <input type="submit" value="Filter" />
     </p>
 </form>
+-->
 
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => List<Event>[0].Type)
+                @Html.DisplayNameFor(model => model.Type)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Event[0].Date) 
+                @Html.DisplayNameFor(model => model.Date) 
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Event[0].TimeFrom)
+                @Html.DisplayNameFor(model => model.TimeFrom)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Event[0].TimeUntil)
+                @Html.DisplayNameFor(model => model.TimeUntil)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Event[0].Location)
+                @Html.DisplayNameFor(model => model.Location)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Event[0].CheckboxGroups)
+                @Html.DisplayNameFor(model => model.CheckboxGroups)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Event[0].BringWith)
+                @Html.DisplayNameFor(model => model.BringWith)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Event[0].Description)
+                @Html.DisplayNameFor(model => model.Description)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Event) { 
+@foreach (var item in Model) { 
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Type)
@@ -74,7 +76,7 @@
                 @Html.DisplayFor(modelItem => item.BringWith)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Description)  
+                @Html.DisplayFor(modelItem => item.Description)   
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |

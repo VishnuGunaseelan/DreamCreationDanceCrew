@@ -59,3 +59,13 @@ Am Morgen habe ich am Controller weitergearbeitet. Ich bekamm eine Fehlermeldung
 
 04.01.2022 Nachmittag:
 Am Nachmittag habe ich noch an den Kompotenzen gearbeitet, die ich in der Schule abgeben muss.
+
+10.01.2022 Morgen:
+Im Index.cdhtml wurden noch einige Fehlern angezeigt. Ich habe dann am Morgen noch mit Jonas angeschaut voran diese ligen könnte. Danach habe ich diese behoben.
+
+11.01.2022 Morgen:
+Ich habe mit Jonas am Morgen noch den Model angeschaut und habe danach den Model wie bei der Dokumentation angepasst.
+
+17.01.2022 Morgen:
+Ich arbeite am Controller. Ich glaube der Fehler liegt daran, dass ich bisher mit der Dokumentation vom Razor Pages gearbeitet habe und dann für den Controller den Dokumentation
+vom MVC gebraucht habe. Dashalb glaube ich, dass ich einige Schritte verpasst habe. Diese Schritte hole ich jetzt nach.
